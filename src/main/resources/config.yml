@@ -1,0 +1,22 @@
+options:
+  hearts-per-kill: 1
+  heart-recipe:
+    enabled: true
+    recipe:
+      patern:
+        - " N "
+        - "NGN"
+        - " N "
+      items:
+        G: "GOLDEN_APPLE"
+        N: "NETHERITE_INGOT"
+messages:
+  no-permission: "&cYou do not have permission."
+  config-reloaded: "&aConfig files have been reloaded."
+  player-not-found: "&cCould not find the specified player."
+  lost-heart: "&cYou died, so you lost a heart! :("
+  gained-heart: "&aYou killed someone, so you gained a heart!"
+  no-hearts-ban-message: "&eYou have 0 hearts, so you were banned.\n&7\n&dPurchase an unban at:\n&7store.example.net"
+  added-hearts: "&aYou added {hearts} hearts to {player}."
+  removed-hearts: "&cYou remove {hearts} hearts from {player}."
+  eliminated: "&cYou eliminated {player}"
